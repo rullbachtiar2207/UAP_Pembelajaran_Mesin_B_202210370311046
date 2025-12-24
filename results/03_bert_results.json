@@ -1,0 +1,22 @@
+{
+    "model_name": "BERT (Pretrained)",
+    "accuracy": 0.819091024180276,
+    "test_size": 7899,
+    "num_classes": 7,
+    "hyperparameters": {
+        "max_len": 128,
+        "epochs": 3,
+        "batch_size": 16,
+        "learning_rate": 2e-05,
+        "model_name": "bert-base-uncased"
+    },
+    "training_history": {
+        "epochs_trained": 3,
+        "final_train_accuracy": 0.8949295878410339,
+        "final_val_accuracy": 0.8346626162528992,
+        "final_train_loss": 0.2698758840560913,
+        "final_val_loss": 0.4329024851322174,
+        "best_val_accuracy": 0.8346626162528992,
+        "best_val_loss": 0.4246358573436737
+    }
+}

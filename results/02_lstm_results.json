@@ -1,0 +1,22 @@
+{
+    "model_name": "LSTM (Non-Pretrained)",
+    "accuracy": 0.7305988099759463,
+    "test_size": 7899,
+    "num_classes": 7,
+    "hyperparameters": {
+        "max_words": 20000,
+        "max_len": 128,
+        "embedding_dim": 256,
+        "epochs": 40,
+        "batch_size": 32
+    },
+    "training_history": {
+        "epochs_trained": 13,
+        "final_train_accuracy": 0.9663058519363403,
+        "final_val_accuracy": 0.7203443646430969,
+        "final_train_loss": 0.10218929499387741,
+        "final_val_loss": 1.6978362798690796,
+        "best_val_accuracy": 0.7385745048522949,
+        "best_val_loss": 0.7357470989227295
+    }
+}

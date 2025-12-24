@@ -1,0 +1,28 @@
+# Requirements untuk Proyek Klasifikasi Kesehatan Mental
+# UAP Machine Learning - Text Classification
+
+# Core Libraries
+numpy==1.24.3
+pandas==2.0.3
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Machine Learning & Deep Learning
+# Untuk sistem lain, gunakan tensorflow standar
+tensorflow-macos==2.13.0; sys_platform == 'darwin' and platform_machine == 'arm64'
+tensorflow-metal==1.0.0; sys_platform == 'darwin' and platform_machine == 'arm64'
+tensorflow==2.13.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+scikit-learn==1.3.0
+
+# NLP Libraries
+nltk==3.8.1
+
+# Transformers (BERT, DistilBERT)
+transformers==4.31.0
+
+# Streamlit for Web App
+streamlit==1.26.0
+
+# Additional Utilities
+pillow==10.0.0
+protobuf==3.20.3

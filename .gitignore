@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+
+# Model files (optional - comment out if you want to include models in repo)
+# models/*.h5
+# models/*.pkl
+# models/bert_model/
+# models/distilbert_model/
+
+# Results (optional - comment out if you want to include results)
+# results/*.png
+# results/*.csv
+
+# Large files
+*.csv
+!Combined Data 2.csv
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+.cache/
